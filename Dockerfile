@@ -1,8 +1,8 @@
 FROM scratch
-MAINTAINER jackson.nic@gmail.com
+MAINTAINER ioan.romadin@gmail.com
 
 EXPOSE 8080
 
-COPY ./server ./server
+COPY ./server .
 
 ENTRYPOINT ["./server"]
